@@ -1,19 +1,19 @@
-/* ================= RESET ================= */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ================= BODY ================= */
+
 body {
   font-family: Arial, sans-serif;
-  background: #0b1020; /* DARK BASE */
+  background: #0b1020; 
   color: #ffffff;
   padding-top: 54px;
 }
 
-/* ================= COMMON ================= */
+
 .container {
   width: 92%;
   max-width: 1200px;
@@ -51,7 +51,7 @@ body {
   color: #fff;
 }
 
-/* ================= ENVATO BAR ================= */
+
 .envato-bar {
   position: fixed;
   top: 0;
@@ -84,7 +84,7 @@ body {
   font-weight: 600;
 }
 
-/* ================= NAVBAR ================= */
+
 .top-bar {
   background-color: #0b1020;
   background-image:
@@ -132,7 +132,7 @@ body {
   color: #7c5cff;
 }
 
-/* ================= HERO ================= */
+
 .hero {
   padding: 80px 0;
   background-image:
@@ -196,7 +196,7 @@ body {
   gap: 15px;
 }
 
-/* ================= MOCKUPS ================= */
+
 .hero-mockups {
   position: relative;
   width: 820px;
@@ -237,7 +237,7 @@ body {
   z-index: 2;
 }
 
-/* ================= BADGES (WHITE SECTION) ================= */
+
 .badges-section {
   background: #ffffff;
   color: #0f172a;
@@ -275,7 +275,7 @@ body {
   background: #e5e7eb;
 }
 
-/* ================= FEATURES ================= */
+
 .features-section {
   background: #ffffff;
   color: #0f172a;
@@ -335,7 +335,6 @@ body {
   line-height: 1.7;
 }
 
-/* ================= HOME ================= */
 .home-section {
   background: #ffffff;
   color: #0f172a;
@@ -372,7 +371,7 @@ body {
   gap: 60px;
 }
 
-/* ================= RESPONSIVE ================= */
+
 @media (max-width: 992px) {
   .hero-grid {
     grid-template-columns: 1fr;
